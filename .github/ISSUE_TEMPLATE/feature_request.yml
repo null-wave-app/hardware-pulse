@@ -1,0 +1,27 @@
+name: 機能提案
+description: Hardware Pulse の改善案を提案します。
+title: "[提案] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: 提案内容
+      description: Hardware Pulse にどのような機能を追加してほしいですか。
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: 利用目的
+      description: どのような場面や問題に役立つ機能ですか。
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 追加情報
+      description: 例や簡単な画面案があれば記載してください。個人情報は削除してください。
+    validations:
+      required: false
