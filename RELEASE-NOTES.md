@@ -1,6 +1,13 @@
-# Hardware Pulse v0.1.0 preview
+# Hardware Pulse v0.1.1 preview
 
-初回公開 preview です。
+カードからプロセスの使用状況を直接確認できる preview です。
+
+## v0.1.0 からの変更
+
+- CPU・メモリ・GPU・VRAM のカードをクリックすると、その指標の降順でプロセス一覧を表示
+- CPU の詳細に「プロセス」「コア別」タブを追加
+- 独立した Processes カードを廃止
+- 既存の検索・列設定・グループ詳細・終了確認を継続して利用可能
 
 ## 含まれる機能
 
@@ -13,7 +20,7 @@
 
 ## 配布
 
-- Asset: HardwarePulse-v0.1.0-win-x64.zip
+- Asset: HardwarePulse-v0.1.1-win-x64.zip
 - 対象: Windows 11 x64
 - 動作確認: Windows 11 x64 build 26200
 - .NET ランタイム同梱

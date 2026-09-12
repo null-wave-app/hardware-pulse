@@ -1,5 +1,5 @@
 THIRD-PARTY NOTICES
-Hardware Pulse v0.1.0 preview (Windows single-file distribution)
+Hardware Pulse v0.1.1 preview (Windows single-file distribution)
 ====================================================================
 
 This file accompanies the Hardware Pulse binary. Hardware Pulse is an

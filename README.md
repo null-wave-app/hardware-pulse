@@ -1,14 +1,14 @@
 # Hardware Pulse
 
-Hardware Pulse は、Windows 11 x64 向けのハードウェア状態モニターです。CPU、GPU、メモリ、VRAM、プロセスの状態をひとつのデスクトップ画面で確認できます。現在は v0.1.0 preview です。
+Hardware Pulse は、Windows 11 x64 向けのハードウェア状態モニターです。CPU、GPU、メモリ、VRAM、プロセスの状態をひとつのデスクトップ画面で確認できます。現在は v0.1.1 preview です。
 
 この公開ページは配布用ドキュメントです。アプリケーション本体のソースコードは公開していません。
 
 ## ダウンロード
 
-[Hardware Pulse v0.1.0 preview](https://github.com/null-wave-app/hardware-pulse/releases/tag/v0.1.0)
+[Hardware Pulse v0.1.1 preview](https://github.com/null-wave-app/hardware-pulse/releases/tag/v0.1.1)
 
-[**Windows版 ZIPをダウンロード**](https://github.com/null-wave-app/hardware-pulse/releases/download/v0.1.0/HardwarePulse-v0.1.0-win-x64.zip)
+[**Windows版 ZIPをダウンロード**](https://github.com/null-wave-app/hardware-pulse/releases/download/v0.1.1/HardwarePulse-v0.1.1-win-x64.zip)
 
 1. ZIPをダウンロードして、任意のフォルダーにすべて展開します。
 2. `HardwarePulse.exe` を起動します。インストーラーや .NET の追加インストールは不要です。
@@ -25,7 +25,8 @@ Windows 11 x64、ビルド 26200 で動作確認しています。ほかの Wind
 - システムメモリの使用率と使用量を表示
 - メトリックカードの表示・順序・テーマ・アクセントカラー・表示倍率を設定
 - グラフ、クロック、電力、統計表示を切り替え
-- プロセスを CPU、GPU、メモリ、専用 VRAM などで確認
+- CPU・メモリ・GPU・VRAM のカードから、それぞれの使用量の多い順にプロセスを確認
+- CPU の詳細は「プロセス」「コア別」タブで切り替え
 - プロセスを検索、列の表示・順序・幅を変更、グループの詳細を表示
 - ローカルLLM優先のソフトウェア描画モード（次回起動から反映）
 - 選択したプロセスを終了
@@ -60,7 +61,7 @@ Hardware Pulse は自動更新しません。新しい版は Releases ページ�
 
 ## English summary
 
-Hardware Pulse is a Windows 11 x64 desktop hardware monitor preview. It shows CPU, GPU, memory, VRAM, and process information, with configurable cards, graphs, themes, and process columns. The v0.1.0 preview is distributed as **HardwarePulse-v0.1.0-win-x64.zip** from the [GitHub release](https://github.com/null-wave-app/hardware-pulse/releases/tag/v0.1.0).
+Hardware Pulse is a Windows 11 x64 desktop hardware monitor preview. It shows CPU, GPU, memory, VRAM, and process information, with configurable cards, graphs, themes, and process columns. The v0.1.1 preview is distributed as **HardwarePulse-v0.1.1-win-x64.zip** from the [GitHub release](https://github.com/null-wave-app/hardware-pulse/releases/tag/v0.1.1).
 
 Windows 11 x64 build 26200 is the only verified environment. Other hardware and driver combinations are unverified. The executable bundles .NET and is unsigned. CPU temperature availability depends on the hardware, LibreHardwareMonitor support, PawnIO, UAC, and elevation. The app does not install drivers or auto-update. Ending processes can lose unsaved work. Settings are stored at `%APPDATA%\HardwarePulse\settings.json`.
 
